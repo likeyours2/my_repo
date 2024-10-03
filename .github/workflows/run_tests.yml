@@ -24,6 +24,6 @@ jobs:
      - name: install de  pendencies
        run: pip install -r requirements.txt
      - name: Run tests
-       run: petests -v
+       run: pytest -v
      
     
